@@ -1,0 +1,80 @@
+:root {
+    --primary-color: #fff;
+    --secondary-color: #333;
+}
+
+.dark-theme {
+    --primary-color: #333;
+    --secondary-color: #fff;
+}
+
+body {
+    background-color: var(--primary-color);
+}
+
+.themeChanger {
+    width: 50px;
+    position: absolute;
+    cursor: pointer;
+    right: 15px;
+    top: 15px;
+    justify-content: right;
+    align-items: right;
+}
+
+.footer {
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: gray;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-family: 'Antic Slab', serif;
+    padding: auto;
+    height: 45px;
+    position: absolute;
+}
+
+#grid {
+    width: auto;
+    justify-content: center;
+    display: grid;
+    height: auto;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 500px;
+
+}
+
+#item1 {}
+
+#item2 {}
+
+.reactImg {
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 10%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+}
+
+.yazi {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 45px;
+    margin-top: 0.5%;
+    margin-left: 50px;
+    margin-right: 50px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    display: flex;
+
+}
+
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+}
