@@ -1,3 +1,3 @@
 # DarkMode
 
-demo: serkanvarisli.github.io/DarkMode/
+demo: https://serkanvarisli.github.io/DarkMode/
